@@ -1,0 +1,91 @@
+body {
+    background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    margin: 0 8px;
+    border: none;
+    background-color: darkgray;
+    color: darkgray;
+    height: 1px; 
+}
+
+.img-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.img-wrap-child {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.redmark {
+    font-size: 24px;
+    color: #CE2B1D;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+.icon-block h4 {
+    color: #C1261B;
+}
+
+.icon-block, .form-block {
+    background: #EBEBEB;
+}
+
+.form-block {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.child-margins-16 > div {
+    margin: 16px;
+}
+.child-margins-16 > div > label {
+    margin: 0 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    padding: 12px 48px; 
+    font-size: 16px;
+}
+
+.logo > img {
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .to-top-sm {
+        margin-top: -15%;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .to-top-md {
+        margin-top: -20%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .to-top-lg {
+        margin-top: -30%;
+    }
+}
+
+
+
+
