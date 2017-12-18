@@ -32,8 +32,20 @@ hr {
 .font-size-30 {
     font-size: 30px;
 }
+.font-size-40 {
+    font-size: 40px;
+}
+.text-white {
+    color: white;
+}
+.line-height-1-2 {
+    line-height: 1.2;
+}
 
 /* Margins and paddings */
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
 .margin-bottom-16 {
     margin-bottom: 16px;
 }
@@ -58,17 +70,38 @@ hr {
     display: inline;
 }
 
-.img-wrap {
+/* Head of site */
+.head-text-block {
+    margin-left: -8%; 
+    margin-top: 3%;
+}
+.head-block, .head-block > div > div > img {
+    width: 100%
+}
+@media only screen and (max-width: 1500px) {
+    .sm-text {
+        font-size: 28px;
+    }
+}
+.img-head {
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-.img-wrap > div {
+.img-head > div {
     color: white;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
+}
+.logo-block {
+    background: black; 
+    border-radius: 0 0 10px 10px
+}
+.logo-img {
+    width: 100%; 
+    padding: 16px 8px;
 }
 
 /* Redmarks */
