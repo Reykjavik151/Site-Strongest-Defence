@@ -29,6 +29,9 @@ hr {
 .font-size-18 {
     font-size: 18px;
 }
+.font-size-24 {
+    font-size: 24px;
+}
 .font-size-30 {
     font-size: 30px;
 }
@@ -128,18 +131,29 @@ hr {
 }
 .child-form > div > input {
     height: 50px;
-} 
+}
+.free-download {
+    margin: 12% 0 0 10%; 
+    color: #A74840;
+}
+.under-free-download {
+    margin: 3% -10% 3% 10%;
+    font-style: italic;
+}
+.free-download, .under-free-download {
+    font-weight: bold;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .to-top-sm {
         margin-top: -15%;
     }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+@media only screen and (min-width: 1400px) and (max-width: 1650px) {
     .to-top-md {
         margin-top: -20%;
     }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1650px) {
     .to-top-lg {
         margin-top: -30%;
     }
@@ -152,8 +166,6 @@ hr {
     text-align: center;
     font-size: 18px;
 }
-
-/* Customer structure */
 
 /* Block of icons */
 .icon-block {
