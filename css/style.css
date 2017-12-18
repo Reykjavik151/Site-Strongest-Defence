@@ -58,7 +58,6 @@ hr {
     display: inline;
 }
 
-
 .img-wrap {
     width: 100%;
     position: relative;
@@ -72,34 +71,31 @@ hr {
     width: 100%;
 }
 
+/* Redmarks */
 .redmark {
     font-size: 24px;
     color: #CE2B1D;
     margin-left: 4px;
     margin-top: 8px;
 }
-.new-header-text {
-    font-size: 30px;
-}
 
+/* Form block */
 .form-block {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-
-.child-margins-16 > div {
-    margin: 16px;
-}
-.child-margins-16 > div > label {
-    margin: 0 8px;
-}
-
-
 .icon-block, .form-block {
     background: #EBEBEB;
 }
-
-/* Media requests for form */
+.child-form > div {
+    margin: 16px;
+}
+.child-form > div > label {
+    margin: 0 8px;
+}
+.child-form > div > input {
+    height: 50px;
+} 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .to-top-sm {
         margin-top: -15%;
@@ -115,6 +111,16 @@ hr {
         margin-top: -30%;
     }
 }
+
+/* Quote */
+.quote {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Customer structure */
 
 /* Block of icons */
 .icon-block {
