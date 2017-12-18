@@ -1,13 +1,10 @@
 /* Main elements */
-
 body {
     background-color: #FAFAFA;
 }
-
 h1, h2, h3, h4, h5, h6, p, label {
     font-family: 'Lato', sans-serif;
 }
-
 hr {
     margin: 0 8px;
     border: none;
@@ -16,22 +13,58 @@ hr {
     height: 1px; 
 }
 
-/* Customize classes */
+/* Button */
+.button {
+    padding: 12px 48px; 
+    font-size: 16px;
+}
 
+/* Text */
 .text-center {
     text-align: center;
 }
+.font-size-16 {
+    font-size: 16px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-30 {
+    font-size: 30px;
+}
 
+/* Margins and paddings */
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+.margin-top-16 {
+    margin-top: 16px;
+}
+.margin-bottom-32 {
+    margin-bottom: 32px;
+}
+.margin-top-32 {
+    margin-top: 32px;
+}
+.padding-top-8 {
+    padding-top: 8px;
+}
 .padding-bottom-48 {
     padding-bottom: 48px;
 }
 
+/* Displays */
+.display-inline {
+    display: inline;
+}
+
+
 .img-wrap {
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
-
-.img-wrap-child {
+.img-wrap > div {
     color: white;
     position: absolute;
     left: 0;
@@ -45,7 +78,9 @@ hr {
     margin-left: 4px;
     margin-top: 8px;
 }
-
+.new-header-text {
+    font-size: 30px;
+}
 
 .form-block {
     border-radius: 10px;
@@ -58,16 +93,6 @@ hr {
 .child-margins-16 > div > label {
     margin: 0 8px;
 }
-
-.center {
-    text-align: center;
-}
-
-.button {
-    padding: 12px 48px; 
-    font-size: 16px;
-}
-
 
 
 .icon-block, .form-block {
@@ -110,17 +135,17 @@ hr {
 }
 
 /* Block of Logos */
-.logo {
+.logos {
     text-align: center;
     margin-bottom: 32px;
 }
-.logo > p {
+.logos > p {
     margin: 48px 0; 
     color: #9F9F9F;
     font-size: 16px;
     font-weight: bold;
 }
-.logo > img {
+.logos > img {
     margin-left: 32px;
     margin-bottom: 32px;
 }
