@@ -143,6 +143,11 @@ hr {
 .free-download, .under-free-download {
     font-weight: bold;
 }
+.relative-image {
+    position: relative;
+    left: 36px;
+    margin-top: -30px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .to-top-sm {
         margin-top: -15%;
